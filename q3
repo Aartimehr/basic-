@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+float differencebetweentwodecimals(float a,flaot b)
+{
+    return a-b;
+}
+int main()
+{
+    float a;
+    float b;
+    cin>>a>>b;
+    cout<<"result is:";
+    cout<<differencebetweentwodecimals(a,b);
+    return 0;
+}
