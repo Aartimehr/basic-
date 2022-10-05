@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    float a;
+    float b;
+    cin>>a>>b;
+    float difference = a-b;
+    cout<<"difference between two decimal numbers:"<<" ";
+    cout<<difference;
+    return 0;
+}
