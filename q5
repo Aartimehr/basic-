@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    cout<<"even numbers from 2 to 18:"<<endl;
+    int i=2;
+    while(i<=18){
+    if(i%2==0){
+        cout<<i<<endl;
+    }
+     i++;
+    }
+    return 0;
+}
